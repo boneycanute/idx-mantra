@@ -10,4 +10,5 @@ variables: []
 files:
   - \"**/*\"
   - \"!.git\"
-  - \"!.gitignore\"" > .template/template.yaml
+  - \"!.gitignore\" 
+  - \"!.template\"

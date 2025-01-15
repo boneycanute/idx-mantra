@@ -1,0 +1,13 @@
+# In your project root directory
+echo "name: MANTRA Chain Development Environment
+description: Development environment for MANTRA Chain with pre-configured Rust toolchain and mantrachaind binary
+
+config:
+  workspace: mantra-chain-dev
+
+variables: []
+
+files:
+  - \"**/*\"
+  - \"!.git\"
+  - \"!.gitignore\"" > .template/template.yaml
